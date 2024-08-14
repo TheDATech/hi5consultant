@@ -1,0 +1,1142 @@
+/*topsilder*/
+.marg{
+  padding-inline: 0;
+  height: 98vh;
+  position: relative;
+}
+.marg img{
+  width: 100%;
+  height: 98vh;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+.content p{
+  font-size: 1rem;
+  color: #fff;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.content button{
+  color: white;
+  background-color: #8678B8;
+  border-color: #FFFFFF;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+.content button:hover{
+  background-color: #3a3a3a;
+}
+.swiper-pagination-bullet-active{
+  background: #fff !important;
+}
+.swiper-pagination-bullet{
+ border: 1px solid #fff;
+ height: 0.6rem !important;
+ width: 0.6rem !important;
+} 
+
+.mt-10{
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+.subtitle1{
+  font-size: 12px;
+}
+.subtitle{
+  color: #110729;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 0px 15px 0px;
+}
+.subtitle::before {
+  content: "";
+  height: 2px;
+  background-color: #8678B8;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.subtitle1::before {
+  content: "";
+  width: 22%;
+  height: 4px;
+  background-color: #b7abe3;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.content-title {
+  color: #110729;
+    margin: 15px 0px 15px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.43em;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: -1.4px;
+}
+.serviceleft-title{
+  color: #444444;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+.contentpara,.homecontentpara{
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.contentpara p{
+  color: #110729;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 0px 42px 0px 0px;
+}
+.contentpara1{
+  text-align: justify;
+  color: #666666;
+  font-family: "Poppins", Sans-serif;
+  font-size: 0.85em;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+#serviceimageheight svg{
+  height: 430px !important;
+  margin-top: -3rem;
+}
+.homecontentpara p{
+  color: #110729;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 0px 18px 0px 0px;
+}
+.servicebg{
+  position: relative;
+}
+.servicebg-overlay {
+  background-color: transparent;
+  background-image: linear-gradient(130deg, #8678B8 40%, #000000 81%);
+  opacity: 0.73;
+  transition: background 0.3s ease-in-out, border-radius 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Occupy the entire width of the parent container */
+  height: 100%; /* Occupy the entire height of the parent container */
+  z-index: 1; /* Ensure the overlay is above other content */
+}
+.title{
+  color: #fff;
+  font-size: 27px;
+}
+.loveservice{
+    color: #444444;
+    font-family: "Roboto", Sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/*service card start css*/
+.servicecard{
+  height: auto;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 2rem 2rem;
+  position: relative;
+  z-index: 3;
+}
+.servicecard img{
+  margin-inline: auto;
+}
+.servicecard img:hover{
+  transform: scale(1);
+	animation: pulse 1s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.85);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.85);
+	}
+}
+.servicecard h3{
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 24px;
+    opacity: 1;
+}
+.servicecard h3:hover{
+  color: #fff;
+}
+.servicecard p{
+  color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 20px;
+    height: 6rem;
+    margin-inline: auto;
+}
+.serviceleftmoveto{
+  margin-left: 3.8rem;
+}
+.pt-10{
+ padding-top: 7rem;
+ padding-bottom: 7rem;
+}
+.mt-17{
+  margin-top: 6.5rem;
+  margin-bottom: 6rem;
+}
+/*agencies css start*/
+.agencies h1{
+  position: relative;
+  z-index: 4;
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+}
+.agencies .box{
+  z-index: 4;
+  border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    border-color: #FFFFFF;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 12px;
+}
+
+.contactline{
+  color: #fff;
+  padding: 2px;
+  font-size: 13px;
+}
+.contactline a{
+  color: #fff;
+  text-decoration: none; 
+  font-weight: 500;
+}
+.contactline a:hover{
+  color: #000000;
+}
+
+.animate__delay-custom {
+  animation-delay: 1s !important;
+  transition-delay: 5ms !important;
+}
+
+/*breadrum*/
+.Breadrum{
+   height: 100vh;
+   width: 100%;
+   object-fit: cover;
+}
+.Breadrum-overlay{
+  height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(130deg, #8678B8 40%, #000000 81%);
+    opacity: 0.73;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-divider{
+  text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.elementor-divider-separator{
+ border-top: 4px solid #fff;
+ width: 6rem;
+}
+.pt-8{
+  padding-top: 6rem;
+  padding-bottom: 1.5rem;
+}
+/*FAQ css*/
+.faq-question h6{
+ font-size: 20px;
+ text-decoration: none;
+ font-weight: 400;
+}
+.faq-question h6:hover{
+  color: #735dca;
+}
+.faq-question svg{
+  font-weight: 900;
+  font-size: 20px;
+}
+.text-purple{
+  color: #735dca;
+}
+.text-black{
+  color: #000000;
+}
+.faq-answer{
+ padding: 20px 30px;
+}
+.faq-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.faq-item a{
+  text-decoration: none;
+  color: #735dca;
+}
+/*capablities css*/
+.Captitle{
+  color: #8678B8;
+    font-family: "Poppins", Sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.3em;
+    text-align: center;
+}
+.java{
+  font-size: 8rem;
+}
+.industrytitle{
+  color: #111633;
+    margin: 0px 0px 15px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.develop a {
+  color: #111633;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin-bottom: 1em;
+  padding: 10px;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.develop a .box {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid #dad9dd;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.develop a .box:hover {
+  background-color: #8678b8;
+  color: white;
+}
+
+.develop a .box svg {
+  font-size: 2.5rem;
+}
+
+.develop a h4 {
+  margin: 0;
+  color: #111633;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 650;
+  text-align: left;
+}
+.commericalimgbox{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.commericalimgbox img{
+  width: 100%;
+  height: 100%;
+  margin-inline: auto;
+}
+.comm .swiper-button-prev::after,.comm .swiper-button-next::after{
+font-size: 1rem;
+color: #000;
+font-weight: 900;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ededed;
+  margin-top: 2rem;
+}
+tr{
+    border-bottom: 1px solid rgba(0, 0, 0, .13);
+    background: #fff;
+    font-size: 14px;
+}
+td:nth-child(1){
+  padding: 20px;
+}
+td:nth-child(2){
+  padding: 20px 15px;
+  text-align: right;
+}
+td a{
+  color: #337ab7;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+td a:hover{
+  color: #212b35;
+}
+.form-control{
+  outline: none;
+  min-height: 48px;
+  border-right: none;
+}
+.form-control::placeholder{
+  color: #dad9dd;
+}
+.input-group-text{
+  background: #fff;
+  min-height: 48px;
+  color: #dad9dd;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+.abcd{
+  margin-left: 5.6rem;
+}
+.myControlClassName{
+  min-height: 48px;
+  border: 1px solid #dad9dd;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 10px !important;
+outline: none;
+font-size: 0.8rem !important;
+}
+.Dropdown-arrow {
+  top:20px !important;
+  color: #000 !important;
+}
+.Dropdown-option.is-selected{
+background-color: #ebeaec !important;
+}
+.Dropdown-option:hover{
+  background-color: #dad9dd !important;
+  }
+.contact-image{
+width: 100%;
+height: 100%;
+}
+.contact-image img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.contactform{
+  background-color: #ffffff;
+  margin: 2rem 0rem 2rem -3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+}
+.contactform h4{
+  color: #010101;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contactform p{
+  color: #7B7B7B;
+  font-family: "Roboto", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contactform input,.contactform select{
+  border: 1px solid #E5E5E5;
+  padding: 0px 15px 0px 15px;
+    width: 100%;
+    height: 50px;
+    color: #000000;
+    outline: none;
+}
+.contactform button{
+  font-size: 12px;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+}
+.contactform button:hover{
+  background-color: #8678b8;
+}
+.animate__delay-5s{
+  animation-duration: 5s !important;
+}
+.dotboxheight{
+   height: 2.5rem !important;
+}
+.servicebreadrumtitle{
+    color: #FFFFFF ;
+    font-family: "Roboto", Sans-serif;
+    font-size: 80px !important;
+    font-weight: 800 !important;
+    line-height: 72px !important;
+    text-transform: capitalize !important;
+    margin-top: 0.77em;
+}
+.servicebreadrumtitle1{
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 57px !important;
+  font-weight: 600;
+  text-transform: capitalize !important;
+  margin-top: 0.77em;
+}
+.Capabilitiesbreadrumtitle{
+  color: #FFFFFF;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 74px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    margin-top: 0.77em;
+}
+.servicebreadrumpara{
+     font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1.5em !important;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif !important;
+    padding: 0px 30px;
+}
+.Cappara{
+  text-align: justify;
+  color: #202020;
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+/*job detail css start*/
+.jobdetailtitle{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #3a3a3a;
+}
+.entry-content{
+font-size: 14px;
+font-family: 'Roboto',sans-serif;
+}
+.awsm-job-single-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.awsm-job-form-inner {
+  background: #fff;
+  border: 1px solid #dddfe3;
+  padding: 35px;
+}
+.awsm-job-form-inner h2 {
+  margin: 0 0 30px;
+  font-weight: 400;
+  color: #3a3a3a;
+}
+.awsm-applicant-name{
+font-weight: 700;
+}
+.awsm-job-form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+.awsm-job-form-error{
+ color: red;
+ font-weight: 500;
+}
+.awsm-job-form-field{
+  width: 100%;
+    color: #666;
+    padding: .75em;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    background: #fafafa;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+.awsm-job-form-group {
+  margin-bottom: 20px;
+}
+#awsm-application-submit-btn{
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  color: #ffffff;
+  border-color: #0170b9;
+  background-color: #0170b9;
+  border-radius: 2px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1;
+}
+#awsm-application-submit-btn:hover{
+  background-color: #000000;
+}
+.industryabout {
+  margin: 0px 0px 10px 0px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.subtitleindustry{
+  color: #111633;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px 0px 6px 0px;
+    text-transform: capitalize;
+}
+.industryaboutpara{
+  color: #111633;
+    font-family: "Times New Roman", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+.applyNow{
+  border:none;
+  padding: 0.5rem 2rem;
+  outline: none;
+  background-color: #8678b8;
+  color: #fff;
+}
+.applyNow:hover{
+  background-color: #000000;
+}
+#msg{
+  color: #8678b8;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'poppin';
+}
+.boxcap img{
+width: 100%;
+height: 100%;
+object-fit:contain;
+}
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1150px;
+  }
+}
+@media (max-width:1024px) and (min-width:800px){
+  .contactline{
+    font-size: 14px;
+  }
+  .servicecard{
+    padding: 2rem 1rem;
+  }
+  .servicecard h3{
+    font-size: 20px;
+  }
+  .servicecard p{
+    height: 6rem;
+    font-size: 12px;
+  }
+  .content h1{
+    font-size: 28px;
+  }
+  .contentpara{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .content-title{
+    line-height: 18px;
+  }
+  .abcd{
+    margin-left: 3rem;
+  }
+  .dotboxheight{
+    height: 1.5rem !important;
+ }
+ .mt-10 {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+.mt-17 {
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+}
+.servicebreadrumtitle{
+  font-size: 60px !important;
+  line-height: 62px !important;
+  margin-top: 0.77em;
+}
+.servicebreadrumpara{
+  font-size: 14px !important;
+ padding: 0px 5px;
+}
+.serviceleft-title{
+  font-size: 1.5em;
+}
+.contentpara1 {
+  font-size: 0.65em;
+}
+}
+@media (max-width:1024px) and (min-width: 768px) {
+  .container{
+      max-width: 768px;
+  }
+}
+@media (max-width:799px) and (min-width:769px){
+  .contactline{
+    font-size: 10px;
+  }
+  .servicecard{
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .servicecard h3{
+    font-size: 20px;
+  }
+  .servicecard p{
+    height: 6rem;
+    font-size: 12px;
+  }
+  .content h1{
+    font-size: 22px;
+  }
+  .content p{
+    font-size: 0.8rem;
+  }
+  .contentpara{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .content-title{
+    line-height: 18px;
+  }
+
+  td:nth-child(4) a{
+    font-size: 8px !important;
+  }
+  .contactform {
+    margin: 2rem 0rem 2rem 0rem;
+}
+.abcd{
+  margin-left: 3rem;
+}
+.develop a h4 {
+  padding: 26px 18px;
+  font-size: 16px;
+}
+.dotboxheight{
+  height: 1.5rem !important;
+}
+.mt-10 {
+margin-top: 6rem;
+margin-bottom: 2rem;
+}
+.mt-17 {
+margin-top: 4.5rem;
+margin-bottom: 4rem;
+}
+.servicebreadrumtitle{
+  font-size: 50px !important;
+  line-height: 52px !important;
+  margin-top: 1.57em;
+}
+.servicebreadrumpara{
+  font-size: 12px !important;
+ padding: 0px 0px;
+}
+.serviceleft-title{
+  font-size: 1.5em;
+}
+.contentpara1 {
+  font-size: 0.65em;
+}
+.serviceleftmoveto {
+margin-left: 0;
+}
+}
+
+@media (max-width:768px) and (min-width:500px){
+  .contactline{
+    font-size: 10px;
+  }
+  .servicecard{
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .servicecard h3{
+    font-size: 20px;
+  }
+  .servicecard p{
+    height: auto;
+    font-size: 12px;
+  }
+  .content h1{
+    font-size: 22px;
+  }
+  .content p{
+    font-size: 0.8rem;
+  }
+  .contentpara{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .content-title{
+    line-height: 18px;
+  }
+  .mmt-0{
+    margin-bottom: 0rem !important;
+  }
+  td:nth-child(4) a{
+    font-size: 8px !important;
+  }
+  .contactform {
+    margin: 2rem 0rem 2rem 0rem;
+}
+.abcd{
+  margin-left: 3rem;
+}
+.develop a h4 {
+  padding: 26px 18px;
+  font-size: 16px;
+}
+.dotboxheight{
+  height: 1.5rem !important;
+}
+.mt-10 {
+margin-top: 6rem;
+margin-bottom: 4rem;
+}
+.mt-17 {
+margin-top: 4.5rem;
+margin-bottom: 4rem;
+}
+.agencies .box {
+  border: none;
+}
+.servicebreadrumtitle{
+  font-size: 45px !important;
+  line-height: 42px !important;
+  margin-top: 1.57em;
+}
+.servicebreadrumpara{
+  font-size: 10px !important;
+ padding: 0px 0px;
+}
+.serviceleft-title{
+  font-size: 1.5em;
+}
+.contentpara1 {
+  font-size: 0.65em;
+}
+.serviceleftmoveto {
+margin-left: 0;
+}
+.loveservice {
+  font-size: 30px;
+}
+}
+@media (max-width:699px) and (min-width:500px){
+  .abcd{
+    margin-left: 0rem !important;
+  }
+  .servicebreadrumtitle{
+    font-size: 40px !important;
+    line-height: 32px !important;
+    margin-top: 1.57em;
+  }
+  .servicebreadrumpara{
+    font-size: 8px !important;
+   padding: 0px 0px;
+  }
+  .serviceleft-title{
+    font-size: 1.5em;
+  }
+  .contentpara1 {
+    font-size: 0.65em;
+  }
+  .serviceleftmoveto {
+  margin-left: 0;
+  }
+  .elementor-divider{
+    padding-bottom: 0px;
+  }
+  .loveservice {
+    font-size: 30px;
+  }
+}
+@media (max-width:499px) and (min-width:376px){
+  .contactline{
+    font-size: 5px;
+    padding: 2px;
+  }
+  .contactline svg{
+    margin-bottom: 2px;
+  }
+  .servicecard{
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .servicecard h3{
+    font-size: 20px;
+  }
+  .servicecard p{
+    height: auto;
+    font-size: 12px;
+  }
+  .content h1{
+    font-size: 18px;
+  }
+  .content p{
+    font-size: 0.7rem;
+  }
+  .contentpara{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .agencies .box {
+    border: none;
+  }
+  .content-title{
+    line-height: 18px;
+  }
+  .mmt-0{
+    margin-bottom: 0rem !important;
+  }
+  .Captitle {
+     font-size: 42px;
+  }
+  td a {
+    font-size: 11px;
+  }
+  td:nth-child(2) {
+    font-size: 8px;
+    padding: 20px 5px; 
+  }
+  td:nth-child(4) a{
+    font-size: 8px !important;
+  }
+  td{
+    font-size: 8px;
+  }
+  td:nth-child(1) {
+    padding: 20px 10px;
+}
+.contactform {
+  margin: 2rem 0rem 2rem 0rem;
+}
+.abcd{
+  margin-left: 0rem;
+}
+.marg,.marg img{
+  height: 50vh;
+}
+.mt-10{
+  margin-top: 5rem;
+}
+.mt-17 {
+  margin-top: 5.5rem;
+}
+.servicebreadrumtitle{
+  font-size: 30px !important;
+  line-height: 32px !important;
+  margin-top: 1.57em;
+}
+.servicebreadrumpara{
+  font-size: 8px !important;
+ padding: 0px 0px;
+}
+.serviceleft-title{
+  font-size: 1.5em;
+}
+.contentpara1 {
+  font-size: 0.65em;
+}
+.serviceleftmoveto {
+margin-left: 0;
+}
+.elementor-divider{
+  padding-bottom: 0px;
+}
+.elementor-divider-separator{
+  width: 4.5rem;
+  margin-bottom: 0;
+}
+.loveservice {
+  font-size: 30px;
+}
+.Breadrum-overlay,.Breadrum{
+  height: 50vh !important;
+  background-size: 100% 100%;
+}
+.Breadrum .content{
+  top:27%;
+}
+}
+@media (max-width:375px) and (min-width:200px){
+  .contactline{
+    font-size: 5px;
+    padding: 2px;
+  }
+  .contactline svg{
+    margin-bottom: 2px;
+  }
+  .servicecard{
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .servicecard h3{
+    font-size: 20px;
+  }
+  .servicecard p{
+    height: auto;
+    font-size: 12px;
+  }
+  .content h1{
+    font-size: 18px;
+  }
+  .content p{
+    font-size: 0.7rem;
+  }
+  .contentpara{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .agencies .box {
+    border: none;
+  }
+  .content-title{
+    line-height: 18px;
+  }
+  .mmt-0{
+    margin-bottom: 0rem !important;
+  }
+  .Captitle {
+     font-size: 42px;
+  }
+  td a {
+    font-size: 11px;
+  }
+  td:nth-child(2) {
+    font-size: 8px;
+    padding: 20px 5px; 
+  }
+  td:nth-child(4) a{
+    font-size: 8px !important;
+  }
+  td{
+    font-size: 8px;
+  }
+  td:nth-child(1) {
+    padding: 20px 10px;
+}
+.contactform {
+  margin: 2rem 0rem 2rem 0rem;
+}
+.abcd{
+  margin-left: 0rem;
+}
+.marg,.marg img{
+  height: 50vh;
+}
+.mt-10{
+  margin-top: 5rem;
+}
+.mt-17 {
+  margin-top: 5.5rem;
+}
+.servicebreadrumtitle{
+  font-size: 22px !important;
+  line-height: 32px !important;
+  margin-top: 0.57em;
+}
+.servicebreadrumpara{
+  font-size: 10px !important;
+ padding: 0px 0px;
+}
+.serviceleft-title{
+  font-size: 1.5em;
+}
+.contentpara1 {
+  font-size: 0.65em;
+}
+.serviceleftmoveto {
+margin-left: 0;
+}
+.elementor-divider{
+  padding-bottom: 0px;
+}
+.elementor-divider-separator{
+  width: 4.5rem;
+  margin-bottom: 0;
+}
+.loveservice {
+  font-size: 30px;
+}
+.Breadrum-overlay,.Breadrum{
+  height: 50vh !important;
+  background-size: 100% 100%;
+}
+.Breadrum .content{
+  top:30%;
+}
+}

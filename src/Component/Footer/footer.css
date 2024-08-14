@@ -1,0 +1,160 @@
+.footerbackground{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.footerbackground h2{
+     color: #FFFFFF;
+     font-size: 13px; 
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    border-bottom: 1px solid #fff;
+    width: 11rem;
+    padding: 9px 0;
+}
+
+.footerbackground ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footerbackground ul li{
+    line-height: 11px;
+}
+.footerbackground ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.copyright,.footerbackground p{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11.1px;
+    font-weight: 500;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    text-align: justify;
+}
+.copyright a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.social{
+ display: flex;
+ gap: 10px;
+}
+.social li{
+  background-color: #FFFFFF;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  line-height: 43px !important;
+}
+.social li a{
+    color: #000 !important;
+    font-size: 1.7rem !important;
+    padding: 1.2rem 0.7rem;
+}
+.click{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    fill: #6E57C9;
+    color: #6E57C9;
+    background-color: #FFFFFF00;
+border: 3px solid #6E57C9;
+    border-radius: 38px 38px 38px 38px ;
+    font-size: 14px;
+    padding: 10px 24px;
+    transform: scale(1);
+}
+.click:hover{
+    transform: scale(0.7);
+}
+.faqicon{
+    width:20rem;
+    height: 19rem;
+    margin-top: -3.5rem;
+    margin-inline: auto;
+}
+.faqicon svg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hgu{
+    margin-left: 2.5rem;
+}
+.mere{
+    margin-right: 2rem;
+}
+@media (max-width:1030px) and (min-width:700px){
+    .faqicon{
+        width:16rem;
+        height: 15rem;
+    }
+    .copyright,.footerbackground p{
+        color: #FFFFFF;
+        font-family: "Poppins", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        -webkit-text-stroke-color: #000;
+        stroke: #000;
+        text-align: justify;
+    }
+    .footerbackground ul li a{
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .footerbackground ul li{
+        line-height: 8px;
+    }
+    .footerbackground h2{
+        color: #FFFFFF;
+        font-size: 14px; 
+       font-family: "Poppins", Sans-serif;
+       font-weight: 500;
+       -webkit-text-stroke-color: #000;
+       stroke: #000;
+       border-bottom: 1px solid #fff;
+       width: 9.5rem;
+       padding: 7px 0;
+   }
+   .social li{
+    line-height: 42px !important;
+}
+}
+@media (max-width:799px) and (min-width:400px){
+    .click{
+        padding: 10px;
+        margin-inline: auto;
+    }   
+    .faqicon{
+        width:15rem;
+        height: 15rem;
+       margin-inline: auto;
+       margin-top: -2.5rem;
+    }
+}
+@media (max-width:400px) and (min-width:200px){
+    .click{
+        padding: 10px;
+        margin-inline: auto;
+    }   
+    .faqicon{
+        width:19rem;
+        height: 15rem;
+       margin-inline: auto;
+       margin-top: -2.5rem;
+    }
+    .hgu{
+        margin-left: 0rem;
+    }
+    .mere{
+        margin-right: 0rem;
+    }
+}
