@@ -88,7 +88,7 @@ export const Jobs=()=>{
                     <div className="col-md-2 mt-2 mb-2">
                         <Dropdown  options={industryOptions}
               onChange={(e) => setIndustry(e.value)}
-              value={industry} placeholder="All Job Category" controlClassName='myControlClassName'/>
+              value={industry} placeholder="All Job Industry" controlClassName='myControlClassName'/>
                     </div>
                     <div className="col-md-2 mt-2 mb-2">
                         <Dropdown  options={typeOptions}

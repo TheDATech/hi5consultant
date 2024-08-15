@@ -12,6 +12,7 @@ import DOMPurify from 'dompurify';
 export const JobDetail=()=>{
   const [Open,setOpen]=useState(false);
   const [jobData,setJobData]=useState([]);
+  console.log('jobData',jobData)
   const [values,setValues]=useState({
     job_id:'',
     full_name: '',
@@ -121,16 +122,34 @@ return(
             <div className="container p-md-5 p-3" style={{backgroundColor:'#FFFF'}}>
             <h4 className="content-title px-md-4">{jobData && jobData.job_title}</h4>
             <div className="awsm-job-specification-wrapper px-md-4">
-                <div className="awsm-job-specification-item awsm-job-specification-job-category"><span className="awsm-job-specification-label"><strong>Job Category: </strong></span><span className="awsm-job-specification-term">Admin</span> </div><div class="awsm-job-specification-item awsm-job-specification-job-type"><span class="awsm-job-specification-label"><strong>Job Type: </strong></span><span class="awsm-job-specification-term">{jobData && jobData.employment_type}</span> </div><div class="awsm-job-specification-item awsm-job-specification-states"><span class="awsm-job-specification-label"><strong>Job Location: </strong></span><span class="awsm-job-specification-term">{jobData && jobData.job_location}</span> </div></div>
+                <div className="awsm-job-specification-item awsm-job-specification-job-category"><span className="awsm-job-specification-label"><strong>Job Category: </strong></span>
+                <span className="awsm-job-specification-term">Admin</span>
+                 </div>
+                 <div class="awsm-job-specification-item awsm-job-specification-job-type"><span class="awsm-job-specification-label"><strong>Job Type: </strong></span
+                 ><span class="awsm-job-specification-term">{jobData && jobData.employment_type}</span> 
+                 </div>
+                 <div class="awsm-job-specification-item awsm-job-specification-states">
+                  <span class="awsm-job-specification-label"><strong>Job Location: </strong></span>
+                  <span class="awsm-job-specification-term">{jobData && jobData.job_location}</span> 
+                  </div>
+                  <div class="awsm-job-specification-item awsm-job-specification-job-type"><span class="awsm-job-specification-label"><strong>Job industry: </strong>
+                  </span><span class="awsm-job-specification-term">{jobData && jobData.job_industry}</span> 
+                 </div>
+                  <div class="awsm-job-specification-item awsm-job-specification-job-type"><span class="awsm-job-specification-label"><strong>Grade: </strong>
+                  </span><span class="awsm-job-specification-term">{jobData && jobData.grade}</span> 
+                 </div>
+                  </div>
             <div className="awsm-job-entry-content entry-content mt-3 px-md-4">
 	
 <p className="content-title">Summary:</p>
 
 
-
 <p className="homecontentpara">{jobData && jobData.job_summary}</p>
 
 <p className="homecontentpara">{jobData && jobData.short_description}</p>
+
+{jobData && jobData.long_description && <p className="content-title">Long Description</p>}
+<p className="homecontentpara">{jobData && jobData.long_description}</p>
 
 <p className="content-title">Responsibilities:</p>
 
